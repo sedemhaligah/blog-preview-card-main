@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+}
+.container{
+    padding: 30px;
+    margin: 30px;
+    align-items: center;
+    border-radius: 30px;
+    background-color: white;
+    max-width: 50%;
+    width: 100%;
+    box-shadow: 20px 20px 20px black;
+
+}
+
+.topPhoto{
+    width: 100%;
+    border-radius: 20px;
+}
+
+h4{
+    background-color: hsl(47, 88%, 63%);
+    padding: 10px;
+    border-radius: 10px;
+    width: 70px;
+    text-align: center;
+}
+
+h2{
+    color: black;
+}
+h2:hover{
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+}
+.about img{
+    height: 40px;
+    margin-right: 10px;
+    transition-duration: 1s;
+}
+
+.about:hover img{
+    height:50px;
+    cursor: pointer;
+}
+
+
